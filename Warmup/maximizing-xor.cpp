@@ -28,6 +28,7 @@ using namespace std;
  * Complete the function below.
  */
 int maxXor(int l, int r) {
+    // Very straight forward. But watch out the parenthesis in (i^j)>mm ! Very important!
     int mm=0;
     for (int i=l;i<=r;i++)
         for (int j=l;j<=r;j++)

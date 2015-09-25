@@ -24,6 +24,7 @@ using namespace std;
 // If there are more than 1 'f' and 2 'g's, we are good. Then we go find the rightmost 'f' and count how many 'g's are on its left.
 // Say there's only 1 'g', then we know 'f' cannot be on the second place, so we move on to a rightmost 'g' and find 1 'f' and 1 'g' on its left.
 // Basically that's the idea, but you need to initialize some arrays, because counting the letters on the fly is too slow.
+// Overall complexity O(26^2 * len).
 
 int lefti[10000][26]; // lefti[i][j] Keep track of how many letter j's are there on i's left (i inclusive)
 int findind[10000][26]; // findind[i][j] Keep track of the rightmost letter j on i's left (i inclusive). -1 means no letter j found on i's left

@@ -17,9 +17,10 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-// First we compute the sum from arr[0] to arr[i] for all i's.
+// First we compute the sum from arr[0] to arr[i] for all i's. We module m for every sum.
 // We can acquire a subarray sum by substracting sum[j] by sum[i] (j>i). In a special case, if we need the sum from arr[0] to arr[j], we just use sum[j].
-// Now the question becomes: For each sum[j], find a sum[i] such that sum[i]>sum[j], i<j. 
+// It's also possible sum[i] > sum[j] because of the module. In that case the subarray sum becomes (sum[j] + m - sum[i]).
+// Now the question becomes: For each sum[j], find the minimal sum[i] such that sum[i]>sum[j], i<j. 
 // We use set to solve this. It inserts an element in O(lg(n)) time, and finds an element in O(lg(n)) time.
 int main()
 {

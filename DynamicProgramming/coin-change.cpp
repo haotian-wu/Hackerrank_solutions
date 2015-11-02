@@ -18,7 +18,7 @@
 using namespace std;
 
 
-// We use dp[i][j] = k to denote There are k ways to give charge with first i kinds of coins for j cents.
+// We use dp[i][j] = k to denote There are k ways to give change with first i kinds of coins for j cents.
 // dp[i][j] = dp[i-1][j] + dp[i][j-c_i]
 long long dp[51][251]={0};
 int main() {

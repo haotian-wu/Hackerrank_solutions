@@ -29,7 +29,7 @@ int oper(int diff)
 {
     if (diff == 0)
         return 0;
-    if (diff <= 2 || diff == 5)
+    if (diff <= 2)
         return 1;
     if (diff <= 4)
         return 2;
@@ -46,7 +46,7 @@ int main() {
         int operations = 100000000, minc = 100000000;
         for (int i=0;i<n;i++)
         {
-            scanf("%lld",&candy[i]);
+            scanf("%d",&candy[i]);
             if (candy[i] < minc)
                 minc = candy[i];
         }

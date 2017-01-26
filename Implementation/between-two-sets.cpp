@@ -18,7 +18,7 @@
 using namespace std;
 
 // Brute force solves this problem, but we can do better (we can solve a_i <= 10^9)
-// First find the LCM of array A, the GCD of B, then we can simply check how many divisors are there in B/A.
+// First find the LCM of array A, the GCD of B, then we can simply check how many divisors are there in GCD_B/LCM_A.
 // In case B%A != 0, output 0.
 // How to count the number of divisors of a number? We can factorize a number into primes:
 // X = p_1^r_1 * p_2^r_2 * ... * p_n^r_n

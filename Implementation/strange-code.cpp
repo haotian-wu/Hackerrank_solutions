@@ -17,7 +17,7 @@
 #include <algorithm>
 using namespace std;
 
-// Well I think the code it self is self-explanatory...
+// Well I think the code itself is self-explanatory...
 
 int main() {
     long long t;
@@ -29,5 +29,4 @@ int main() {
         cur *= 2;
     }
     printf("%lld\n", cur+1-t);
-    
 }

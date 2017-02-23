@@ -29,11 +29,12 @@ using namespace std;
 //                             ...X  |                 ....  |                      ....
 //                             ....  |                 X...  |                      ...X
 //                             ....  |                 ....  |                      ....
-// These are all the places that number 56 can go. Vice versa, these are the only numbers that can be moved to the place 56 resides.
+// These are all the places that number 56 can go. 
+// Vice versa, these are the only numbers that can be moved to the place 56 resides.
 // We call this a "group". Since we can only move numbers within a group, and 56 is the largest in this group,
 // it's quite reasonable that we pick 56.
-// The entire matrix can be splitted into n*n groups, and all we need to do is to find the largest number within each group, and sum them up;
-// given the fact that we can move the greatest number in the group to the upper left matrix, 
+// The entire matrix can be splitted into n*n groups, and all we need to do is to find the largest number within each group, 
+// and sum them up; given the fact that we can move the greatest number in the group to the upper left matrix, 
 // without interfering other numbers already in the upper left matrix.
 // The groups look like: (the same letter means they're in the same group)
 // ABBA

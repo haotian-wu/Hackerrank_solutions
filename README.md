@@ -12,4 +12,4 @@ Haotian Wu
 Update (1/26/2017)
 The number of questions in hackerrank are increasing from time to time, so "XX subdomain problems all finished" may not be true any more... I'm trying to keep up.
 
-Send me a message on which problem you're interested in that I'm missing.
+Send me a message on which problem you're interested in that I'm missing. You can comment on haotianwu.me .

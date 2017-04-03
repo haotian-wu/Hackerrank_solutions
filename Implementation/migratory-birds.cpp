@@ -20,7 +20,8 @@ using namespace std;
 // There're several ways to do this. Using an array to count is the most obvious solution.
 // We can either create an array of size 5, and use index 0, 1, 2, 3, 4 for 1, 2, 3, 4, 5 (type - 1 = index); 
 // or we can create an array of size 6, ignore index 0, so we can use the type number as index directly.
-// What if the type number is too big (say something like 2017040302), or it's a string (say "AB0305")?
+// For this problem, using an array is enough. However, in another counting problem,
+// what if the type number is too big (say something like 2017040302), or it's a string (say "AB0305")?
 // In that case, map is the best solution. Google "C++ map" (or "Python dictionary") for detail. 
 
 int main() {

@@ -18,6 +18,7 @@
 using namespace std;
 
 // The only thing matters is the highest hurdle and Dan's initial jumping capability.
+// Drinking all beverages needed at the beginning of the race is always the best option.
 
 int main() {
     int n, k;

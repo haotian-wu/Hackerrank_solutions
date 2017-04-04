@@ -20,7 +20,7 @@ using namespace std;
 
 // First we should notice building the entire chessboard in memory is not possible, because 10^5 * 10^5 is huge.
 // There're many ways of solving this problem. For example, 
-// (1) iterate all obstacles and see if it's on the way of the queen. 
+// (1) iterate all obstacles and see if it's on the way of the queen's movement. 
 // Find the closest obstacle to the queen on all 8 directions. (O(k))
 // (2) save all obstacles in a map or hashmap. 
 // Simulate the movement of the queen, and check if we're running into an obstacle. (O(n+k))

@@ -21,7 +21,7 @@ using namespace std;
 // Just implement as the problem's instruction. 
 // Considering the size of array will change, instead of modifying on the original string,
 // we will create a new string.
-// Since if the size of string will reduce at least 2 if the algorithm does not terminate,
+// Since the size of string will reduce at least 2 in one run if the algorithm does not terminate,
 // which means it will terminte in at most n/2 runs, the algorithm is O(n^2).
 // For an algorithm running in O(n), see reduced-string-2.cpp .
 

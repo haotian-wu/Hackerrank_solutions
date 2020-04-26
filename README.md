@@ -9,7 +9,6 @@ Haotian Wu
 
 ==============================
 
-Update (1/26/2017)
 The number of questions in hackerrank are increasing from time to time, so "XX subdomain problems all finished" may not be true any more... I'm trying to keep up.
 
-Send me a message on which problem you're interested in that I'm missing. You can comment on haotianwu.me .
+Your sponsorship is highly appreciated! If you think this repository is helpful, you can buy me a coffee by clicking "Sponsor" above... So I can devote more time on this project and create solutions for more problems!

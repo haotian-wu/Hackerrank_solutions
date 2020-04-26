@@ -11,4 +11,4 @@ Haotian Wu
 
 The number of questions in hackerrank are increasing from time to time, so "XX subdomain problems all finished" may not be true any more... I'm trying to keep up.
 
-#Your sponsorship is highly appreciated! If you think this repository is helpful, you can buy me a coffee by clicking "Sponsor" above... So I can devote more time on this project and create solutions for more problems!
+# Your sponsorship is highly appreciated! If you think this repository is helpful, you can buy me a coffee by clicking "Sponsor" above... So I can devote more time on this project and create solutions for more problems!

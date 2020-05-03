@@ -36,7 +36,7 @@ int main()
     for (map<int,int> :: iterator j = mp.begin();j!=mp.end();j++)
     {
         if (j->second > 0)
-            printf("%d ",j->first);
+            cout << j->first << " ";
     }
     
 }
